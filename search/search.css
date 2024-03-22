@@ -1,0 +1,178 @@
+.container{
+    width: 1170px;
+    margin: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+  font-family: 'Galada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Galada Regular'), local('Galada-Regular'), url(https://fonts.gstatic.com/s/galada/v5/H4cmBXyGmcjXlUXO9SY_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url(https://fonts.gstatic.com/s/karla/v13/qkBWXvYC6trAT7zuC8m5xLs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+    background-color: white;
+}
+.section1{
+    background-image:url(street_neon_lights_142512_3840x2400.jpg);
+    height: 600;
+    background-size: cover;
+}
+.section1 h3{
+    text-align: center;
+    font-size: 50;
+    color: aliceblue;
+    text-shadow: 2px 1px 5px rgba(145,247,237,0.5);
+    padding-top: 180;
+    font-family: 'Karla',sans-serif;
+    text-transform: uppercase
+}
+.search{
+    margin-top:130;
+    position:absolute;
+    
+}
+.search-bar{
+    width: 950;
+    height: 45;
+    color: black;
+    outline: none;
+    margin-left: 60;
+    opacity:0.7;
+    transition: all 0.5s ease;
+    text-align: center;
+    border: solid #91f7ed;
+    border-width: medium;
+    border-right: none;
+}
+.search button{
+    height:44.5;
+    width: 100;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(180deg, #222, #91f7ed);
+    font-size:16 ;
+    cursor: pointer;
+    outline:none;
+    opacity: 0.7;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.search button:hover{
+    opacity: 0.9;
+    color: white;
+    
+}
+.search-bar:hover{
+    opacity: 0.9;
+}
+.section2{
+    height:960;
+    background-color: #ddd;
+}
+.heading2 h1{
+    font-size: 100;
+    text-transform:lowercase;
+    font-family: 'Galada',cursive;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 10;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+.row{
+    display:flex;
+    justify-content:space-around;
+}
+.row .item{
+    display: flex;
+    padding: 10;
+}
+.movie-cover{
+    position: relative;
+    width: 200;
+    height: 300;
+    transition: ease 0.3s;
+}
+.movie-cover i{
+    position: absolute;
+    right: 72;
+    top: 130;
+    z-index: 2;
+    font-size: 50;
+    color:black;
+    opacity: 0;
+    transition: ease-in 0.3s;
+}
+.movie-cover::after{
+    content:'';
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 100;
+    color:deeppink;
+    font-size: 25;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: ease 0.3s;
+}
+.movie-cover::before{
+    content:'';
+    background-color: hotpink;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100;
+    right: 0;
+    color:deeppink;
+    font-size: 25;
+    text-align: center;
+    opacity: 0;
+     transition: ease 0.3s;
+}
+.movie-cover:hover::before,.movie-cover:hover::after{
+    opacity:0.3;
+}
+.movie-cover:hover{
+    box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.5);
+}
+.movie-cover:hover i{
+    opacity: 1;
+}
+
+.movie-content{
+    height: 150;
+    text-align: center;
+    margin-top: 60;
+    margin-left: 5;
+    padding: 5;
+    border-style:double;
+    border-width: medium;
+    border-image-source: linear-gradient(#222,hotpink);
+    border-image-slice: 3;
+    border-left: none;
+}
+.movie-content h3{
+    font-family:sans-serif;
+    font-weight: 500px;
+    padding-top: 20;
+}
+.movie-content p{
+    font-weight:500;
+    margin-top: 20
+}

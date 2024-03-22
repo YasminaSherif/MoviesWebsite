@@ -1,0 +1,161 @@
+body{
+     
+    background-color: #000;
+}
+.title{
+    text-align: center;
+    font-size: 500%;
+    color:#3a0db8 ;
+    margin-top:50px;
+    
+}
+img{
+    width:230px;
+    height:350px;
+}
+.a{
+    width: 230px;
+    height: 350px;
+    border:1px solid #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.name
+{
+    width:240px;
+    color:#fff;
+    font-size: 150%;
+    text-align: center;
+}
+.one{
+    margin-left:80px;
+    margin-top:120px;
+    display:inline-block;
+}
+.two, .three, .four, .five, .seven, .eight, .ten, .thirteen, .nine, .fourteen, .fifteen, .twelve{
+    margin-left:20px;
+    display:inline-block;
+}
+.six, .eleven{
+    margin-left:80px;
+    display:inline-block;
+    margin-top:30px;
+}
+.details{
+    width:250px;
+    height:380px;
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    margin:0;
+    top:400px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    padding-top:20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family:sans-serif;
+}
+
+
+.a:hover .details
+{
+     top:0;
+}
+.l{
+    width:200px;
+    color:#fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: darkred;
+    text-align: center;
+    margin:20px 0 0 20px;
+    letter-spacing: 1px;
+    }
+.y{
+    width: 60px;
+    color:#000;
+    font-size:bold; 
+    background-color:darkgoldenrod;
+    position: absolute;
+    bottom:95px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-left:5px;
+    font-weight:600;
+}
+.r{
+    width:60px;
+    color:#000;
+    background-color:darkgoldenrod;
+    position: absolute;
+    bottom: 60px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-left:5px;
+    font-weight:600;
+}         
+.movie-info{
+    width:210;
+    line-height: 20px;
+    margin:50px 15px 15px; 
+    
+}
+        
+        
+
+.container{
+    display:flex;
+    height:350px;
+    justify-content:center;
+    align-items: center;
+    background-image:url(image.jpg);
+    border-bottom:2px solid darkred;
+    border-top:2px solid darkred;
+    margin-top: 50px
+}
+
+.slider-wrapper{
+    width:600px;
+    height:300px;
+     overflow: hidden;
+}
+.inner-wrapper{
+    width:400%;
+    height:100%;
+    position: relative;
+    left:-100%;
+}
+.slide{
+    height:300px;
+    width:600px;
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.button{
+    width:30px;
+    height:30px;
+    border-top:2px solid white;
+    position: absolute;
+    cursor: pointer;
+}
+.prev{
+    border-left:2px solid white;
+    left:20%;
+    transform: rotate(-45deg);
+}
+.next{
+    border-right:2px solid white;
+    right:20%;
+    transform: rotate(45deg);
+}
+.trailer-name{
+    width:150px;
+    height:50px;
+    position: absolute;
+    top:10px;
+    color:#fff;
+    text-align: center;
+}

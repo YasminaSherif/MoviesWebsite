@@ -1,0 +1,64 @@
+body{
+    background-image: url(images/1289331.jpg);
+    perspective: 600px;
+}
+
+
+.m1{
+    font-size: 50px;
+    width: 30%;
+    font-style:oblique;
+    text-align: center;
+    text-shadow: 1px 1px 3px yellowgreen;
+    box-shadow: -5px 5px 5px yellow;
+    color:yellow;
+    border: 0px;
+    border-style: groove;
+    padding: 5px;
+    border-color: black;
+    margin: 30px;
+    transition: all 0.5s;
+    
+}
+
+.m1:hover{
+    color:forestgreen;
+    box-shadow: -5 5 5 forestgreen;
+    
+}
+
+.m2{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: oblique;
+    border-radius: 20px;
+    padding :5px 15px;
+    margin-top: 15px;
+    color :yellow;
+}
+
+.mo3{  
+        height:350px;
+        width: 270px;
+        border: 5px ;
+        border-style:groove;
+        box-shadow: 1px 1px 5px gold;
+        padding: 0px;
+        border-radius: 15px; 
+        border-color: yellow;
+        margin: 80px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        transition: all .3s ease-in-out;
+
+}
+.mo3:hover{
+    box-sizing:content-box;
+    transform: scale(1.1,1.1);
+    background-size: 130% ;
+    border-color: forestgreen;
+    box-shadow: 1px 1px 5px green; 
+    
+}
+}

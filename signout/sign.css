@@ -1,0 +1,69 @@
+body{
+    background-image: url(images/back3.jpeg);
+    background-size: cover;
+}
+
+.all{
+    border: 0.5px solid rgb(127, 0, 0);
+    border: 0.5px solid rgba(255, 0, 0, .5)
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.sign1{
+    
+        border:1px solid gray;
+        margin: 0 15px;
+        padding: 20px 18px ; 
+        border-radius: 15px;
+}   
+.sign1 input, .sign1 textarea{
+    
+    background: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+::-webkit-input-placeholder {
+  color: #333;
+  font-size: 16px;
+}
+
+.sign1 label{
+    
+    display: block;
+    text-align: left;
+    color: #333;
+    font-size: 18px;
+}
+.finish{
+    
+    display: block;
+    background: palevioletred;
+    color: white;
+    margin: 0 15px;
+    padding: 20px 18px ; 
+    border-radius: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.select{
+    
+    height: 30px;
+}
+
+.checked:hover {
+  color: orange;
+}

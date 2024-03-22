@@ -1,0 +1,637 @@
+body{
+    background-color: black;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+@font-face {
+  font-family: 'Galada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Galada Regular'), local('Galada-Regular'), url(https://fonts.gstatic.com/s/galada/v5/H4cmBXyGmcjXlUXO9SY_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url(https://fonts.gstatic.com/s/karla/v13/qkBWXvYC6trAT7zuC8m5xLs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+ @font-face {
+  font-family: 'Merienda One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merienda One'), local('MeriendaOne-Regular'), url(https://fonts.gstatic.com/s/meriendaone/v10/H4cgBXaMndbflEq6kyZ1ht6ohYaz.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+   background-color:black;
+   text-align: center;
+   position:fixed;
+   top: 0px;
+   left: 0px;
+   right: 0;
+   z-index: 101;
+   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.5);
+}
+.position{
+    position: relative;
+}
+.navbar h2{
+    float: left;
+    font-size:35px;
+    color: white;
+    padding: 7px;
+    letter-spacing: 2px;
+    font-family: 'Galada', cursive;
+    margin-right: 10;
+    text-transform:lowercase;
+    font-weight: 200;
+}
+
+.navbar span{
+    font-family: 'Galada', cursive;
+    color: #FF4400;
+    text-transform: uppercase
+}
+.navbar ul{
+    display: inline-flex;
+    }
+.navbar ul li{
+    padding:15px;
+    margin:10px;
+    margin-left:40px;
+}
+.navbar ul li a{
+    color: whitesmoke;
+    font-size: 20;
+    font-family: sans-serif;
+    transition: all 0.5s ;
+}
+.navbar .last{
+    margin-left: 150px;
+    margin-right:0px;
+} 
+.navbar li .activee,.navbar ul li a:hover{
+    color:#FF4400;
+}
+
+.menu{
+    position: absolute;
+    right:770;
+    margin-top: 25px;
+    background-color:#987e;
+    border: thin black solid;
+    display: none;
+}
+.menu ul{
+    display: block;
+    padding-right:30;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034); 
+}
+.menu ul li{
+    text-align: center;
+    border-bottom: solid thin #45857C;
+}
+.menu ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-2{
+    position: absolute;
+    right:632;
+    margin-top: 25px;
+    background-color:#987e;
+    border: thin black solid;
+    display: none;
+}
+.menu-2 ul{
+    display: block;
+    padding-right: 30px;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+}
+.menu-2 ul li{
+    border-bottom: solid thin #45857C;
+}
+.menu-2 ul li:last-child{
+    border-bottom: none;
+}
+
+.all-menu{
+    display: block;
+    background-color:#987e;
+    border: thin black solid;
+    position: absolute;
+    right: 200;
+    top: 70;
+    display: none;
+}
+.all-menu ul{
+    display: block;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+}
+.all-menu ul li{
+    padding: 10;
+    margin-right: 50;
+}
+.all-menu ul li a{
+    color: black;
+    font-family: 'Merienda One', cursive; 
+}
+.all-menu ul li a:hover{
+    color:white;
+}
+.slider{
+    background-image: url(Abm0wRq.jpg);
+    background-position:100%;
+    background-size: cover;
+    height: 500px;
+    z-index: 0;
+    margin-top:70;
+    border-bottom: thin solid olive;
+    
+}
+.slider .heading h3{
+    font-size: 40;
+    color:white;
+    padding-top:45;
+    font-family:sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;  
+}
+
+.new-movies{
+    display: inline-flex;
+    padding-top: 40;
+    position:absolute;
+    overflow: hidden;
+}
+
+.New-content{
+    text-align: center;
+    padding-top: 85;
+    width: 500;
+    margin-left: 80
+}
+.New-content h2{
+    color: goldenrod;
+    font-family: 'karla',sans-serif;
+    font-size: 30;
+}
+.New-content p{
+    color: aliceblue;
+    font-family: 'karla',sans-serif;
+    
+}
+.mySlide{display: none;}
+
+/* start trendy*/
+.trendy{
+    background-color: black;
+    height: 400;
+    padding-top: 40
+}
+.trendy h2 a{
+    color: red;
+    font-size: 50;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    letter-spacing:2;
+}
+.trendy h2{
+    text-align: center;
+}
+.trendy video{
+    outline:none;
+    float:left;
+}
+.trendy .content{
+    float: right;
+    margin-top: 70;
+}
+.trendy .name{
+    color: darkgoldenrod;
+    font-size: 35;
+    margin-left: 60;
+    
+}
+.trendy .content p{
+    color:white;
+    font-size: 20;
+}
+.info{
+    margin-left: 145;
+    padding-top:6;
+}
+/* start section*/
+.section{
+    background-image: radial-gradient(rgba(185,107,0,0.23),rgba(0,0,0,0.5));
+    height: 500;
+    border-top: solid thin red;
+}
+.heading-movies,.heading-shows{
+    display: flex;
+    padding-top: 10;
+    
+}
+.heading-movies button{
+    margin:5;
+    margin-right:25;
+    margin-top:20;
+    padding:10;
+    color:white;
+    background-color:#111;
+    border:thin solid;
+    border-color:darkred;
+    border-radius: 20%;
+    cursor:pointer;
+    outline-style:outset;
+    outline-color: darkred;
+    
+}
+.heading-movies .first-btn{
+    color:olivedrab;
+}
+.heading-movies h2,.heading-shows h2{
+    font-size:50;
+    margin-right:125;
+    color: #eee;
+    letter-spacing: 2;
+}
+.action,.action-show{
+    display: flex;
+    padding: 20;
+    margin: 10;
+    position: absolute;
+}
+.none-f,.none-fs{
+    display:none;
+    position: absolute;
+}
+.fiction,.fiction-show{
+    display: flex;
+    position: relative;
+    padding: 20;
+    margin: 10;
+}
+.drama,.drama-show{
+    position: relative;
+    display: flex;
+     padding: 20;
+    margin: 10;
+}
+.none-d,.none-ds{
+    display: none;
+    position: absolute;
+}
+.comedy,.comedy-show{
+    position: relative;
+    display: flex;
+     padding: 20;
+     margin: 10;
+}
+.none-c,.none-cs{
+    display: none;
+}
+.item{
+    padding: 10;
+    width: 200;
+    height: 400;
+}
+.movie-cover{
+    position:relative;
+    box-shadow: none;
+    transition: 0.6s ease;
+}
+.movie-cover::before{
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:linear-gradient(90deg, #038059 0%, #FF4400 100%);
+  opacity: 0;
+  transition: 0.4s ease;
+  box-shadow:  0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.movie-cover:hover::before{
+  opacity:0.6;
+}
+.play{
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 50%;
+  top:40%;
+  left:70;
+  z-index: 2;
+  font-size: 30px;
+  color: white;
+  transition: 0.4s ease;
+  opacity:0;
+}
+.movie-cover:hover .play{
+    opacity: 1;
+}
+.movie-content h3{
+    color: white;
+    font-size: 18;
+}
+.fa-star{color: goldenrod;}
+.movie-category{
+    color:orangered;
+    border: solid thin olivedrab  ;
+    border-radius:10%;
+    font-size:16;
+    margin-right:10;
+    padding: 1;
+}
+.movie-content span{
+    color:white;
+}
+/*start shows*/
+
+.section-2{
+    background-image: radial-gradient(rgba(0,255,260,0.15),rgba(0,0,0,0.5));
+    height: 500;
+    border-bottom: solid darkblue thin; 
+}
+.heading-shows button{
+    margin:5;
+    margin-right:25;
+    margin-top:20;
+    padding:10;
+    color:white;
+    background-color:#111;
+    border:thin solid;
+    border-color:#34206B;
+    border-radius: 20%;
+    cursor:pointer;
+    outline-style:outset;
+    outline-color:#28106B;
+}
+.heading-shows .first-btn{
+    color:#B37D00;
+}
+
+/* start compare*/
+.soon{
+    margin-top: 30;
+    height: 500;
+    box-sizing: border-box;
+}
+.soon img{
+    margin-top:25;
+    float: left;
+    width:600;
+}
+.soon h2 a{
+    font-size: 50;
+    color: #66602E;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5;
+    font-family: 'Merienda One', cursive;
+    border-left:double thick #B3A950 ;
+    padding-left:15px; 
+}
+.content-2{
+    color: white;
+    font-size: 18;
+    float: right;
+    width: 500;
+    margin: 0 20;
+    margin-top: 90;
+    line-height: 1.5;
+}
+.soon .name2{
+    color:goldenrod;
+    font-size: 35;
+    margin-left: 200;
+    text-shadow: 1px 1px 2px #66602E;
+}
+.next{
+    float: right;
+}
+.next button {
+   font-family: 'Karla', sans-serif;
+   font-size:20;
+   background-image:linear-gradient(#222,burlywood);
+   padding: 5px;
+   border-radius: 15px 0 15px 0;
+   outline: none;
+   cursor: pointer;
+}
+.next button:hover{
+    background-image:linear-gradient(burlywood,#222);
+}
+
+
+
+.compare{
+    height: 500;
+    background-image: radial-gradient(rgba(242,2,2,0.1),rgba(0,0,0,0.5));
+}
+
+.right{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float:right;
+}
+.right img,.left img{
+    width:100%;
+    height: 100%;
+}
+.vote,.vote2{
+    position: absolute;
+    top:50%;
+    background-color: rgba(0,0,0,0.7);
+    width:250;
+    display: flex;
+    justify-content: center;
+}
+.vote button,.vote2 button{
+    padding: 9px;
+    font-size:20;
+    cursor: pointer;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    height: 40;
+    outline: none;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.like,.like2{
+    border: double green thin;
+}
+.like:hover,.like2:hover{
+     box-shadow: 2px 2px 5px green,
+    -2px -2px 5px green;
+}
+.dislike,.dislike2{
+    border:double red thin;
+}
+.dislike:hover,.dislike2:hover{
+    box-shadow: 2px 2px 5px orangered,
+    -2px -2px 5px orangered;
+}
+.numVotes,.numVotes2{
+    position: absolute;
+    bottom: 1px;
+    background-color: rgba(250,222,222,0.7);
+    width:250;
+    display: flex;
+    justify-content: center;
+    height: 35;
+    font-weight: bold;
+}
+.left{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    float:left;
+}
+.mid{
+    display: block;
+}
+.mid h2{
+    padding-top: 10;
+    font-family: 'Merienda One', cursive;
+    font-size: 45;
+    margin-left:260;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px darkgreen,
+                -1px -1px 2px greenyellow; 
+}
+.mid p{
+    color:bisque;
+    font-size: 25;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 350;
+    margin-right: 360;
+    padding-top: 40;
+    letter-spacing: 1px;
+}
+.mid button{
+    background: transparent;
+    border:solid yellow thin ;
+    font-size:15;
+    margin-left:290;
+    margin-top: 40;
+    padding: 10px;
+    border-radius: 20px;
+    color: pink;
+    outline: none;
+    cursor: pointer;
+}
+.mid button:hover{
+    box-shadow: 0.5px 0.5px 5px lightgreen,-0.5px -0.5px 5px lightgreen;
+}
+.menu-compare{
+    display: none;
+}
+.mid ul{
+    margin-left:525;
+    margin-right: 525;
+    height: 60;
+    margin-top: 10px;
+}
+
+.mid ul li{
+    padding:3;
+    border-bottom: thin solid lightgreen;
+}
+.mid ul li a{
+    color: white;
+}
+.mid ul li a:hover{
+    color: silver;
+}
+.tables{
+    color: white;
+}
+.tables h2{
+    font-size: 50;
+    font-family:'karla',sans-serif;
+    float: left;
+    margin-left: 250;
+    margin-bottom: 15;
+}
+.tables button{
+    float:right;
+    padding: 5;
+    border: thin thin green;
+    outline: thin inset orange;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top:17;
+}
+.tables table{
+    margin-top: 10px;
+    width: 1170;
+    height: 120;
+    border:5px solid;
+    border-image-source:linear-gradient(50deg,green,orangered);
+    border-image-slice: 1;
+}
+.tables table tr{
+    text-align: center;
+}
+.tables table tr td,.tables table tr th{
+    padding: 5;
+}
+.footer{
+    margin-top: 50px;
+    background-image: url(Abm0wRq.jpg);
+    background-size: cover;
+    height: 130px;
+}
+.footer h3{
+    color: white;
+    font-size: 35;
+    margin-left: 150;
+    font-weight: 300;
+    font-family:'Merienda One', cursive;
+    width:500;
+}
+.footer h5{
+    margin-left: 600;
+    font-size: 20;
+    color: white;
+    font-family:'Merienda One', cursive;
+    
+}
+.footer p{
+    color: white;
+    font-size: 20;
+    font-weight: 300;
+    font-family:'Merienda One', cursive;
+    float: right;
+    margin-top: 20;
+    margin-right: 10;
+}

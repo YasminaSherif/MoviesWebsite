@@ -1,0 +1,89 @@
+body
+{
+    background-image: url(3W.jpeg);
+    background-color: brown;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+div.heading
+{
+    font-size: 24px;
+    margin: 100px 0px 0px 1px;
+    text-align: center;
+    background-color: darkred;
+    height: 100px;
+}
+h1
+{
+    color: khaki;
+    font-family: arial;
+    padding: 20px;
+}
+div.movie-background
+{
+    color:white;
+    margin-top: 150px;
+    padding: 10px;
+    margin: 60px 20px 60px 20px;
+    height: 5600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)), url("3W.jpeg");*/
+    background-size: cover;
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    border-radius: %;
+}
+div.movie-box
+{
+    height: 420px;
+    width:285px;
+    margin: 50px 0px 80px 60px;
+    border: 1px solid wheat;
+    float: left;
+    cursor: pointer;
+}
+div.movie-info
+{
+    background-image: url(ooo.jpg);
+    background-color: brown;
+    background-size: cover;
+    height: 20px;
+    padding: 10px;
+    margin-top: 8px;
+    width: 260px;
+    border: ;
+    text-align: center;
+}
+
+div.movie-img
+{
+    overflow: hidden;
+    height: 100%;
+}
+div.movie-img img
+{
+    width: 100%;
+    transition: transform 3s;
+}
+div.movie-img img:hover
+{
+    transform: scale(1.2);
+}
+.vid
+{
+    padding: 0px;
+    margin: auto;
+    background-color: rgb(12, 12, 75);
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    padding: 10px 20px 50px ;
+}
+.vid video
+{
+    width: auto;
+    height: auto;
+    margin-top: 55px;
+}

@@ -1,0 +1,77 @@
+body{
+    font-family:Tahoma, arial, monospace;
+    color: white;
+    background: url(futuristic_cyberpunk_future_world_4k_6407.jpg);
+    background-size: cover;
+}
+
+h2{
+    color: white;
+    font-size: 30;
+    font-family: arial;
+}
+.forgot,.reset{
+    font-size: 15px;
+    font-family: cursive;
+}
+.split{
+    background-color: rgba(20,10,5,0.9);
+    padding: 10px;
+    width:350px;
+    margin: auto;
+    height: 450;
+    margin-top:100;
+    box-shadow: 3px 3px 2px  #532,
+               -3px -3px 2px #532;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+form{
+    text-align: center;
+}
+input{
+    width:250;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family:monospace;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0px;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+input[type=password]{
+    margin-top: 20;
+}
+input[type=submit]
+{
+    border: none;
+    width:200;
+    background: white;
+    color:black;
+    font-size: 20;
+    line-height: 25px;
+    padding: 10px 0px;
+    margin-top: 15;
+    border-radius: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+background-color:#333;
+    color: white
+}
+input[type=checkbox]{
+    width:20;
+}
+a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+a:hover{
+    color: skyblue;
+}
+

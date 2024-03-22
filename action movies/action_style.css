@@ -1,0 +1,52 @@
+body{
+    background: #000;
+}
+body{
+     
+    background-color: #000;
+}
+.title{
+    text-align: center;
+    margin:50px 0 80px 0;
+    font-size: 500%;
+    color:red;
+}
+img{
+    width:210px;
+    height:300px;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
+    width:210px;
+    height:300px;
+    float: left;
+    margin-top: 20px;
+}
+.info{
+    display: none;
+    background-color:transparent;
+    width: 0px;
+    height: 0px;
+    color: white;
+    float: left;
+    margin-top: 20px;
+    opacity: 0;
+}
+.details{
+    
+    margin-left:20px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    line-height:30px;
+    margin-left:20px;
+}
+.clear{
+    clear: both;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
+    margin-left:50px;
+}
+

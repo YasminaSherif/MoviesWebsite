@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    background-image: url(9934619-design-elements-of-movie-theme-design.jpg) ;
+    background-size: cover ;
+    background-position: center ;
+    
+    
+}
+
+.sign-up-form
+{
+    width: 600px ;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3) ;
+    background: #fff ;
+    padding: 20px ;
+    margin: 8% auto 0 ;
+    text-align: center ;
+    border-radius: 20px ;
+    
+}
+
+.sign-up-form h1
+{
+    color:black ;
+    margin-bottom: 30px;
+}
+
+.input-box
+{
+    border-radius: 20px ;
+    padding: 10px ;
+    margin: 10px 0 ;
+    width: 80% ;
+    border: 1px solid #999 ;
+    outline: none ;
+}
+
+button
+{
+    color: #fff ;
+    width: 100% ;
+    padding: 10px ;
+    border-radius: 20px ;
+    font-size: 15px ;
+    border: none ;
+    outline: none ;
+    cursor: pointer ;
+}
+
+.sign-Up-btn  
+{
+    background-color:darkgray ;
+    
+    
+}
+
+.twitter-btn
+{
+    background-color: dimgrey;
+}
+
+a
+{
+    text-decoration: none ;
+}
+
+hr
+{
+    width: 80% ;
+    margin-top: 20px;
+}
+
+.or
+{
+    background: #fff ;
+    margin: -19px auto 10px ;
+    width: 30px ;
+}
+

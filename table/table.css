@@ -1,0 +1,112 @@
+body
+{
+    background-image: url(1W.jpeg);
+    text-transform: capitalize;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:"times new roman" , Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+div.border
+{
+    width: 287px;
+    height: 4px;
+    background: darkred;
+    margin: 10px auto;
+}
+table 
+{
+    margin: auto;
+    margin-bottom: 100PX;
+    width: 1100px;
+    height: 100px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color: black;
+    text-align: center;
+    box-shadow: 1px 1px 15px 10px black;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+td{
+    height: 20px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+tr:hover 
+{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+th
+{
+    background-color:darkred;
+    height: 60px;
+    font-size: 25px;
+    color: turquoise;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+td:nth-child(10n+1)
+{
+    background-color:darkred;
+    width: 120px;
+}
+
+/* ---------------------- series pic --------------------------------*/
+div.movie-box
+{
+    height: 400px;
+    width:280px;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+div.movie-img
+{
+    overflow: hidden;
+    height: 100%;
+}
+div.movie-img img
+{
+    width: 100%;
+    background-size: cover;
+}
+
+.scroll-to-top
+{
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 3px 5px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: none; 
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.scroll-to-top:hover
+{
+    background-color: rad;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
